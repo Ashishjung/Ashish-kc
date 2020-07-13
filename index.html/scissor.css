@@ -1,0 +1,359 @@
+body{
+    margin: 0%;
+    padding:0%;
+    background-color:black;
+}
+.container{
+    background-color:black;
+    width: 60%;
+    height:40%;
+    position: absolute;
+    top:20%;
+    left:17%;
+    
+    box-shadow: 0px 10px 15px 20px rgba(255, 0, 76, 0.842);
+    
+    
+
+}
+.container:hover{
+
+    box-shadow: 0px 10px 15px 15px rgb(174, 0, 255);
+}
+#p1{
+    color:white;
+    font-size: 14mm;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: absolute;
+    left:20%;
+    top:-8%;
+
+}
+
+#start{
+    position: absolute;
+    top:60%;
+    left:30%;
+    font-size: 10mm;
+    box-shadow: 0px 5px 5px  rgb(255, 0, 136);
+    background-color: black;
+    border: 2px solid rgb(255, 0, 128);
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
+#start:hover{
+    box-shadow: 0px 5px 5px  rgb(255, 0, 64);
+}
+
+b{
+    color:aqua;
+}
+strong{
+    color:rgb(38, 255, 0);
+}
+@media only screen and (max-width: 600px) {
+    .container{
+    background-color:black;
+    width: 80%;
+    height:60%;
+    position: absolute;
+    top:20%;
+    left:8%;
+    
+    box-shadow: 0px 10px 15px 20px rgba(255, 0, 76, 0.842);
+    }
+    #start{
+        position: absolute;
+        top:65%;
+        left:15%;
+        font-size: 10mm;
+        box-shadow: 0px 5px 5px  rgb(255, 0, 136);
+        background-color: black;
+        border: 2px solid rgb(255, 0, 128);
+        color:white;
+        cursor: pointer;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    #p1{
+        color:white;
+        font-size: 13mm;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        position: absolute;
+        left:20%;
+        top:-8%;
+    
+    }
+  
+}
+.container2{
+    background-color:black;
+    width: 60%;
+    height:145%;
+    position: absolute;
+    top:10%;
+    left:17%;
+    display: none;
+    box-shadow: 0px 10px 15px 20px rgba(0, 68, 255, 0.842);
+}
+.container2:hover{
+    box-shadow: 0px 10px 15px 20px rgba(255, 42, 0, 0.842);
+}
+#p2{
+    color:rgba(255, 255, 255, 0.287);
+    font-size: 12mm;
+    position: absolute;
+    left:20%;
+}
+li{
+    display: inline-block;
+    position: relative;
+    margin-top:20%;
+    margin-left: 5%;
+
+    
+
+}
+#scissor{
+    font-size: 10mm;
+    background-color: black;
+    border:2px solid rgb(255, 0, 128);
+    color:rgb(255, 0, 85);
+    border-radius: 5px;
+    margin-left:60%;
+    cursor: pointer;
+}
+#paper{
+    font-size: 10mm;
+    background-color: black;
+    border:2px solid rgb(0, 17, 255);
+    color:white;
+    border-radius: 5px;
+    margin-left:80%;
+    cursor: pointer;
+}
+#rock{
+    font-size: 10mm;
+    background-color: black;
+    border:2px solid rgb(255, 0, 170);
+    color:rgb(71, 255, 230);
+    border-radius: 5px;
+    margin-left:100%;
+    cursor: pointer;
+}
+.container3{
+    background-color:black;
+    width: 60%;
+    height:10%;
+    position: absolute;
+    top:120%;
+    left:17%;
+    
+   
+}
+@media only screen and (max-width: 800px) {
+    .container2{
+        background-color:black;
+        width:90%;
+        height:140%;
+        position: absolute;
+        top:10%;
+        left:3%;
+        
+        box-shadow: 0px 10px 15px 20px rgba(0, 68, 255, 0.842);
+    }
+    #p2{
+        color:rgba(255, 255, 255, 0.287);
+        font-size:10mm;
+        position: absolute;
+        left:20%;
+        top:5%;
+    }
+    .container3{
+        background-color:black;
+        width: 60%;
+        height:10%;
+        position: absolute;
+        top:120%;
+        left:17%;
+        
+       
+    }
+    li{
+        display: inline-block;
+        position: relative;
+        margin-top:70%;
+        margin-left: 2.5%;
+    
+        
+    
+    }
+    #scissor{
+        font-size: 7mm;
+        background-color: black;
+        border:2px solid aqua;
+        color:rgb(255, 0, 85);
+        cursor: pointer;
+        
+        margin-left:10%;
+    }
+    #paper{
+        font-size: 7mm;
+        background-color: black;
+        border:2px solid aqua;
+        color:white;
+        cursor: pointer;
+        margin-left:20%;
+    }
+    #rock{
+        font-size: 7mm;
+        background-color: black;
+        border:2px solid aqua;
+        color:tomato;
+        cursor: pointer;
+        margin-left:25%;
+    }
+    
+}
+.box{
+    background-color:black;
+    width:50%;
+    height:55%;
+    position: absolute;
+    margin:20%;
+    top:15%;
+    box-shadow: 0px 10px 15px 20px rgba(0, 162, 255, 0.842);
+    display:none;
+}
+.box:hover{
+    box-shadow: 0px 10px 15px 20px rgba(255, 208, 0, 0.842);
+}
+#quit{
+    background-color:black;
+    color:rgb(255, 208, 0);
+    top:92%;
+    position: relative;
+    border:2px solid rgb(255, 0, 43);
+    border-radius: 5px;
+    float: right;
+    font-size: 10mm;
+    margin-right: 5%;
+    cursor: pointer;
+
+}
+#p3{
+    color:rgb(255, 0, 234);
+    font-size: 8mm;
+    margin-left: 10%;
+}
+#p4{
+    color:white;
+    font-size: 7mm;
+    margin-left: 10%;
+    top:-5%;
+    position: relative;
+}
+#p5{
+    color:rgba(255, 255, 255, 0.445);
+    font-size: 13mm;
+    margin-left: 15%;
+    top:-5%;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#p6{
+    color:rgba(255, 0, 64, 0.657);
+    font-size: 10mm;
+    margin-left: 15%;
+    top:-9%;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#restart{
+
+        background-color:black;
+        color:white;
+        
+        position: relative;
+        border:2px solid rgb(255, 0, 43);
+        border-radius: 5px;
+        float: right;
+        font-size: 10mm;
+        margin-right: 5%;
+    margin-top: -10%;
+    cursor: pointer;
+    
+}
+@media only screen and (max-width: 400px) {
+    .box{
+        background-color:black;
+        width:70%;
+        height:45%;
+        position: absolute;;
+        right:0.1%;
+        
+       top:30%;
+        box-shadow: 0px 10px 15px 20px rgba(0, 162, 255, 0.842);
+      
+    
+        
+        
+    }
+    .box:hover{
+        box-shadow: 0px 10px 15px 20px rgba(255, 208, 0, 0.842);
+    }
+    #p3{
+        color:rgb(225, 0, 255);
+        font-size: 7mm;
+        margin-left: 10%;
+    }
+    #p4{
+        color:white;
+        font-size: 7mm;
+        margin-left: 10%;
+        top:-5%;
+        position: relative;
+    }
+    #p5{
+        color:rgba(255, 255, 255, 0.445);
+        font-size: 10mm;
+        margin-left: 10%;
+        top:-5%;
+        position: relative;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #p6{
+        color:rgba(255, 0, 64, 0.657);
+        font-size: 8mm;
+        margin-left: 10%;
+        top:-9%;
+        position: relative;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #quit{
+        background-color:black;
+        color:rgb(255, 208, 0);
+        top:60%;
+        position: relative;
+        border:2px solid rgb(255, 0, 43);
+        border-radius: 5px;
+        float: right;
+        font-size: 10mm;
+        margin-right: 5%;
+    cursor: pointer;
+    }
+    #restart{
+
+        background-color:black;
+        color:white;
+        cursor: pointer;
+        position: relative;
+        border:2px solid rgb(255, 0, 43);
+        border-radius: 5px;
+        float: right;
+        font-size: 8mm;
+        margin-right: 5%;
+    margin-top: -10%;
+    
+}
+}
